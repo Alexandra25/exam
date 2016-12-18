@@ -18,3 +18,7 @@ if __name__ == '__main__' :
     main ()
 
 #обработка текста
+ text = text.lower()
+ txt = text.split()
+ for word in txt:
+     word = word.strip(' ,.?')
